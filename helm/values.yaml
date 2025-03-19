@@ -50,15 +50,15 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 8000
 
 authService:
-  type: ClusterIP
+  type: NodePort
   port: 8000
 
 timeService:
-  type: ClusterIP
+  type: NodePort
   port: 8001
 
 ingress:
